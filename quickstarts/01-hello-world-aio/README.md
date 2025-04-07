@@ -130,9 +130,11 @@ Now, you need to configure the client to use your Azure Open AI infrastructure i
     AZURE_OPENAI_DEPLOYMENT="your_azure_ai_foundry_deployment_name_here"
     ```
 
-    Replace `your_azure_ai_foundry_project_name_here` with your actual Azure AI Foundry project name.
-    Replace `your_azure_open_ai_api_version_here` with your current Azure Open AI service api version.
-    Replace `your_azure_ai_foundry_deployment_name_here` with your model deployment name in your Azure AI Foundry project.
+    Replace `your_azure_ai_foundry_project_name_here` with your actual Azure AI Foundry project name.  
+    Replace `your_azure_open_ai_api_version_here` with your current Azure Open AI service api version.  
+    Replace `your_azure_ai_foundry_deployment_name_here` with your model deployment name in your Azure AI Foundry project.  
+
+As the .env file doesn't include a variable AZURE_OPENAI_API_KEY, the LLM client will use by default an Microsoft Entra ID authentication for the connection with Azure Open AI service. This mechanism require an existing Azure connection from the dev container. Moreover, you Azure Open AI Service must be configured to support Microsoft Entra ID authentication.
 
 ## Examples
 
