@@ -91,27 +91,27 @@ As the samples in this folder require an Azure Open AI service, you need to esta
     ```bash
         vscode ➜ /workspace/dapr-agents $ az login
     ```
-2. Once you are connected to Azure you are ready to run the sample in the folder './quickstarts/01-hello-world-aio'
+2. Once you are connected to Azure you are ready to run the sample in the folder './quickstarts/01-hello-world-aoai'
 
     ```bash
-        vscode ➜ /workspace/dapr-agents $ cd ./quickstarts/01-hello-world-aio
-        vscode ➜ /workspace/dapr-agents/quickstarts/01-hello-world-aio $ 
+        vscode ➜ /workspace/dapr-agents $ cd ./quickstarts/01-hello-world-aoai
+        vscode ➜ /workspace/dapr-agents/quickstarts/01-hello-world-aoai $ 
     ```
 3. You can check python version
 
     ```bash
-        vscode ➜ /workspace/dapr-agents/quickstarts/01-hello-world-aio $ python --version
+        vscode ➜ /workspace/dapr-agents/quickstarts/01-hello-world-aoai $ python --version
     ```
 
 4. And the pip version
 
     ```bash
-        vscode ➜ /workspace/dapr-agents/quickstarts/01-hello-world-aio $ pip --version
+        vscode ➜ /workspace/dapr-agents/quickstarts/01-hello-world-aoai $ pip --version
     ```
 5. Finally, install the dapr agent
 
     ```bash
-        vscode ➜ /workspace/dapr-agents/quickstarts/01-hello-world-aio $ pip install -r requirements.txt
+        vscode ➜ /workspace/dapr-agents/quickstarts/01-hello-world-aoai $ pip install -r requirements.txt
     ```
 
 ## Configuration
